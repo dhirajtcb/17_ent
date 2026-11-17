@@ -1,0 +1,361 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_expense_stripe_demo
+#
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# 张飞虎 <feihu.zhang@live.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-18 17:48+0000\n"
+"PO-Revision-Date: 2026-10-11 14:33+0000\n"
+"Last-Translator: 张飞虎 <feihu.zhang@live.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
+"projects/odoo-20/hr_expense_stripe_demo/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__amount_currency
+msgid "Amount in currency"
+msgstr "该货币金额"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__atm_fee
+msgid "Atm Fee"
+msgstr "自动柜员机费用"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__authorization_method
+msgid "Authorization Method"
+msgstr "授权方式"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__capture_surcharge
+msgid "Capture Surcharge"
+msgstr "捕捉附加费"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__capture
+msgid "Capture if approved"
+msgstr "获批准后捕捉"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__split_capture
+msgid "Capture in two transactions"
+msgstr "分两次交易捕捉"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__card_id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__card_id
+msgid "Card"
+msgstr "卡片"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__cashback_amount
+msgid "Cashback Amount"
+msgstr "现金回赠金额"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_purchase_wizard__authorization_method__chip
+msgid "Chip"
+msgstr "芯片"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.hr_expense_stripe_topup_wizard_inherit_demo
+msgid "Close"
+msgstr "关闭"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_res_company
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__company_id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/models/res_company.py:0
+msgid "Configure Company"
+msgstr "配置公司"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.res_config_settings_view_form
+msgid "Connect (demo)"
+msgstr "连接（演示）"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_purchase_wizard__authorization_method__contactless
+msgid "Contactless"
+msgstr "非接触式"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.module.module,summary:base.module_hr_expense_stripe_demo
+msgid "Create and manage company expense cards via Stripe: Demo"
+msgstr "通过 Stripe 创建和管理公司费用卡：演示"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__create_date
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__currency_id
+msgid "Currency"
+msgstr "币别"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.hr_expense_stripe_test_shipping_wizard_form
+msgid "Current Shipping Status"
+msgstr "当前发货状态"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/models/res_company.py:0
+msgid "Demo Stripe accounts can only be created in test mode."
+msgstr "演示 Stripe 账户只能在测试模式下创建。"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_card__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_dispute__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_topup_wizard__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_res_company__display_name
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_hr_expense_stripe_card
+msgid "Employee Expense Card"
+msgstr "员工费用卡"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.module.module,shortdesc:base.module_hr_expense_stripe_demo
+msgid "Expense cards: Demo"
+msgstr "费用卡：演示"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_hr_expense_stripe_dispute
+msgid "HR Expense Stripe Dispute"
+msgstr "HR 费用 Stripe 争议"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_card__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_dispute__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_topup_wizard__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_res_company__id
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/wizard/hr_expense_stripe_test_shipping_wizard.py:0
+msgid "Invalid shipping status"
+msgstr "发货状态无效"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_purchase_wizard__authorization_method__keyed_in
+msgid "Keyed in Manually"
+msgstr "手动输入"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__write_uid
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__write_date
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__write_date
+msgid "Last Updated on"
+msgstr "上次更新日期"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/models/hr_expense_stripe_card.py:0
+msgid "Manage Card Shipping"
+msgstr "管理卡片发货"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_shipping_wizard__new_shipping_status__deliver
+msgid "Mark as delivered"
+msgstr "标记为已送达"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_shipping_wizard__new_shipping_status__fail
+msgid "Mark as delivery failed"
+msgstr "标记为交付失败"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_shipping_wizard__new_shipping_status__return
+msgid "Mark as returned"
+msgstr "标记为已退回"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_shipping_wizard__new_shipping_status__ship
+msgid "Mark as shipped"
+msgstr "标记为已发货"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__mcc_id
+msgid "Merchant Category Code"
+msgstr "商户类别代码"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__merchant_country_id
+msgid "Merchant Country"
+msgstr "商户国家/地区"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__merchant_name
+msgid "Merchant Name"
+msgstr "商户名称"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__new_shipping_status
+msgid "New Shipping Status"
+msgstr "新的发货状态"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_purchase_wizard__authorization_method__online
+msgid "Online"
+msgstr "线上"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_shipping_wizard__card_shipping_status
+msgid "Shipping Status"
+msgstr "发货状态"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/models/hr_expense_stripe_card.py:0
+msgid "Simulate Card Purchase"
+msgstr "模拟卡片消费"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.hr_expense_stripe_test_purchase_wizard
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.view_hr_expense_stripe_card_form_inherit_demo
+msgid "Simulate Purchase"
+msgstr "模拟消费"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.hr_expense_stripe_test_shipping_wizard_form
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.view_hr_expense_stripe_card_form_inherit_demo
+msgid "Simulate Shipping"
+msgstr "模拟发货"
+
+#. module: hr_expense_stripe_demo
+#: model_terms:ir.ui.view,arch_db:hr_expense_stripe_demo.hr_expense_stripe_topup_wizard_inherit_demo
+msgid "Simulate Top-up"
+msgstr "模拟充值"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__force_capture
+msgid "Simulate a Force Capture"
+msgstr "模拟强制扣款"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields,field_description:hr_expense_stripe_demo.field_hr_expense_stripe_test_purchase_wizard__card_currency_id
+msgid "Stripe Currency"
+msgstr "Stripe 币种"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_hr_expense_stripe_topup_wizard
+msgid "Stripe Issuing Top-up Wizard"
+msgstr "Stripe Issuing 充值向导"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.module.module,description:base.module_hr_expense_stripe_demo
+msgid ""
+"Stripe Issuing integration for expenses: Demo module for testing and "
+"demonstration purposes"
+msgstr "Stripe Issuing 费用集成：用于测试和演示目的的演示模块"
+
+#. module: hr_expense_stripe_demo
+#. odoo-javascript
+#: code:addons/hr_expense_stripe_demo/static/src/components/dispute_form_view.xml:0
+msgid "Submit and Lose"
+msgstr "提交并败诉"
+
+#. module: hr_expense_stripe_demo
+#. odoo-javascript
+#: code:addons/hr_expense_stripe_demo/static/src/components/dispute_form_view.xml:0
+msgid "Submit and Win"
+msgstr "提交并胜诉"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_shipping_wizard__new_shipping_status__submit
+msgid "Submit for shipping"
+msgstr "提交发货"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_hr_expense_stripe_test_purchase_wizard
+msgid "Test Purchase Wizard for Stripe"
+msgstr "Stripe 测试消费向导"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/wizard/hr_expense_stripe_test_purchase_wizard.py:0
+msgid "Test purchase cannot be used on a live system"
+msgstr "测试消费不能在正式系统上使用"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/wizard/hr_expense_stripe_test_shipping_wizard.py:0
+msgid "Test shipping cannot be used on a live system"
+msgstr "测试发货不能在正式系统上使用"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/wizard/hr_expense_stripe_topup_wizard.py:0
+msgid "The indirect top-up simulation isn't available in your country."
+msgstr "间接充值模拟在您的国家/地区不可用。"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/wizard/hr_expense_stripe_test_purchase_wizard.py:0
+msgid ""
+"The test purchase was denied by Stripe with the following message: '%"
+"(reason)s'"
+msgstr "测试消费被 Stripe 拒绝，消息如下：“%(reason)s”"
+
+#. module: hr_expense_stripe_demo
+#. odoo-python
+#: code:addons/hr_expense_stripe_demo/models/res_company.py:0
+msgid ""
+"To create a Stripe account for your company, please set a postal code on "
+"your company address."
+msgstr "要为您的公司创建 Stripe 账户，请在您的公司地址上设置邮政编码。"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model,name:hr_expense_stripe_demo.model_hr_expense_stripe_test_shipping_wizard
+msgid "Wizard to manage the shipping of a physical card"
+msgstr "用于管理实体卡发货的向导"
+
+#. module: hr_expense_stripe_demo
+#: model:ir.model.fields.selection,name:hr_expense_stripe_demo.selection__hr_expense_stripe_test_purchase_wizard__authorization_method__swipe
+msgid "swipe"
+msgstr "刷卡"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_obox_pos_printer_form_mobile" model="ir.ui.view">
+        <field name="name">obox.pos.printer.form.view.mobile</field>
+        <field name="model">pos.printer</field>
+        <field name="inherit_id" ref="obox_point_of_sale.view_obox_pos_printer_form"/>
+        <field name="arch" type="xml">
+            <field name="obox_device_id" position="before">
+                <div class="o_wrap_label" invisible="printer_type not in ('epson_epos', 'obox')"/>
+                <div invisible="printer_type not in ('epson_epos', 'obox')">
+                    <widget name="obox_add_local_printer"/>
+                </div>
+            </field>
+        </field>
+    </record>
+</odoo>

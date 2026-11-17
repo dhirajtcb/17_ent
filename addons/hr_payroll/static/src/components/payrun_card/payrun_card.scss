@@ -1,0 +1,99 @@
+// big min-widths make card columns look aligned like in a list view
+$-column-min-width: 8rem;
+$-menu-min-width: 12rem;
+
+.o_payrun_card_root {
+    position: relative;
+    height: auto;
+    overflow: visible;
+}
+
+.o_payrun_card {
+    flex-wrap: nowrap;
+    align-items: center;
+
+    @include media-breakpoint-down(md) {
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+}
+
+.o_payrun_name {
+    flex: 1 1 $-column-min-width;
+    min-width: $-column-min-width;
+
+    @include media-breakpoint-down(xl) {
+        flex: 1 1 auto;
+    }
+
+    @include media-breakpoint-down(md) {
+        flex: 1 0 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.o_payrun_kpis {
+    // not enough room for the KPIs, hide them
+    @include media-breakpoint-down(xl) {
+        // important is needed to override bootstrap's d-flex
+        display: none !important;
+    }
+}
+
+.o_payrun_actions {
+    @include media-breakpoint-down(md) {
+        flex: 1 0 100%;
+    }
+}
+
+.o_payrun_menu {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(md) {
+        min-width: $-menu-min-width;
+        justify-content: flex-end;
+    }
+
+    @include media-breakpoint-down(md) {
+        justify-content: center;
+    }
+}
+
+.o_payrun_state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // bootstrap was adding a too high line-height, alignment was weird
+    line-height: 1;
+
+    @include media-breakpoint-up(md) {
+        min-width: $-column-min-width;
+    }
+    @include media-breakpoint-down(md) {
+        flex: 1 0 100%;
+    }
+}
+
+.o_payrun_metric_value {
+    min-width: $-column-min-width;
+    font-size: 1.5rem;
+    font-weight: $font-weight-medium;
+
+    .o_payrun_kpi_symbol {
+        margin-right: 0.15em;
+    }
+
+    .o_payrun_kpi_decimals {
+        font-size: 0.6em;
+    }
+}
+
+// no point in offering to open the chatter when the view is too small for it
+@include media-breakpoint-down(md) {
+    .o_payrun_chatter_icon {
+        display: none;
+    }
+}

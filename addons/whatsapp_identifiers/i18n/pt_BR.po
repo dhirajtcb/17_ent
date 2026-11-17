@@ -1,0 +1,189 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * whatsapp_identifiers
+#
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
+# OpenAI <noreply-mt-openai@weblate.org>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~19.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:59+0000\n"
+"PO-Revision-Date: 2026-10-30 16:20+0000\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
+"20/whatsapp_identifiers/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.constraint,message:whatsapp_identifiers.constraint_whatsapp_partner_bsuid_uniq_account_bsuid
+#, fuzzy
+msgid ""
+"A Business-Scoped User ID must be unique per WhatsApp account per partner."
+msgstr ""
+"Um ID de usuário com escopo comercial deve ser único por conta WhatsApp por "
+"parceiro."
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__bsuid
+#, fuzzy
+msgid "Business-Scoped User ID"
+msgstr "ID de usuário com escopo comercial"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,name:whatsapp_identifiers.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,website_form_label:whatsapp_identifiers.model_res_partner
+msgid "Create a Customer"
+msgstr "Criar um cliente"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,name:whatsapp_identifiers.model_discuss_channel
+msgid "Discussion Channel"
+msgstr "Canal de discussão"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_discuss_channel__display_name
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_partner__display_name
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_account__display_name
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_message__display_name
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_discuss_channel__id
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_partner__id
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_account__id
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_message__id
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__id
+msgid "ID"
+msgstr "ID"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: whatsapp_identifiers
+#: model:ir.module.module,summary:base.module_whatsapp_identifiers
+#, fuzzy
+msgid "Mandatory Support for WhatsApp Business-Scoped User IDs (BSUID)"
+msgstr ""
+"Suporte obrigatório para IDs de usuário com escopo comercial do WhatsApp "
+"(BSUID)"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__partner_id
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,help:whatsapp_identifiers.field_res_partner__wa_id
+#: model:ir.model.fields,help:whatsapp_identifiers.field_res_users__wa_id
+#, fuzzy
+msgid "Phone number as stored by WhatsApp"
+msgstr "Número de telefone conforme armazenado pelo WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_message__recipient_wa_bsuid
+#, fuzzy
+msgid "Recipient Business-Scoped User ID"
+msgstr "ID de usuário com escopo comercial do destinatário"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_message__recipient_wa_id
+#, fuzzy
+msgid "Recipient WhatsApp ID"
+msgstr "ID WhatsApp do destinatário"
+
+#. module: whatsapp_identifiers
+#: model:ir.module.module,description:base.module_whatsapp_identifiers
+#, fuzzy
+msgid ""
+"Retroactively add support for Business-Scoped User IDs added to Whatsapp in "
+"June 2026 as part of the username update. These allow users to contact your "
+"business without sharing their phone number.\n"
+"\n"
+"This module MUST be installed to be able to reply to incoming messages."
+msgstr ""
+"Adicionar retroativamente suporte para IDs de usuário com escopo comercial "
+"adicionados ao WhatsApp em junho de 2026 como parte da atualização de nome "
+"de usuário. Eles permitem que os usuários entrem em contato com sua empresa "
+"sem compartilhar o número de telefone.\n"
+"\n"
+"Este módulo DEVE ser instalado para conseguir responder a mensagens "
+"recebidas."
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_whatsapp_partner_bsuid__wa_account_id
+msgid "WhatsApp Account"
+msgstr "Conta do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,name:whatsapp_identifiers.model_whatsapp_account
+msgid "WhatsApp Business Account"
+msgstr "Conta WhatsApp Business"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,name:whatsapp_identifiers.model_whatsapp_partner_bsuid
+#, fuzzy
+msgid "WhatsApp Business-Scoped User ID"
+msgstr "ID de usuário com escopo comercial do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_partner__wa_bsuid_ids
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_users__wa_bsuid_ids
+#, fuzzy
+msgid "WhatsApp Business-Scoped User IDs"
+msgstr "IDs de usuário com escopo comercial do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.module.module,shortdesc:base.module_whatsapp_identifiers
+#, fuzzy
+msgid "WhatsApp Identifiers"
+msgstr "Identificadores do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model,name:whatsapp_identifiers.model_whatsapp_message
+msgid "WhatsApp Message"
+msgstr "Mensagens do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_partner__wa_id
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_users__wa_id
+#, fuzzy
+msgid "WhatsApp number identifier"
+msgstr "Identificador de número do WhatsApp"
+
+#. module: whatsapp_identifiers
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_partner__wa_bsuid
+#: model:ir.model.fields,field_description:whatsapp_identifiers.field_res_users__wa_bsuid
+#, fuzzy
+msgid "Whatsapp Business-Scoped User ID"
+msgstr "ID de usuário com escopo comercial do WhatsApp"

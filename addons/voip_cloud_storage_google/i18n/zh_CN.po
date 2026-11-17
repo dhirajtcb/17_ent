@@ -1,0 +1,35 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * voip_cloud_storage_google
+#
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.5a1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:58+0000\n"
+"PO-Revision-Date: 2026-10-21 08:33+0000\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
+"projects/odoo-20/voip_cloud_storage_google/zh_Hans/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: voip_cloud_storage_google
+#: model:ir.module.module,description:base.module_voip_cloud_storage_google
+msgid "Allows to test voip cloud specyfic behaviour"
+msgstr "允许测试 VoIP 云的特定行为"
+
+#. module: voip_cloud_storage_google
+#: model:ir.module.module,summary:base.module_voip_cloud_storage_google
+msgid "Bridge between VoIP and Cloud Storage"
+msgstr "VoIP 与云存储之间的桥梁"
+
+#. module: voip_cloud_storage_google
+#: model:ir.module.module,shortdesc:base.module_voip_cloud_storage_google
+msgid "VoIP Cloud Storage"
+msgstr "VoIP 云存储"

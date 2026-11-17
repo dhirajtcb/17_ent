@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_event_iot
+#
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:55+0000\n"
+"PO-Revision-Date: 2026-10-30 16:19+0000\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
+"20/pos_event_iot/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: pos_event_iot
+#: model:ir.module.module,description:base.module_pos_event_iot
+#, fuzzy
+msgid ""
+"\n"
+"Bridge module for PoS/Event/IoT. Used to print with IoT upon selling an "
+"event ticket.\n"
+msgstr ""
+"\n"
+"Módulo ponte para PDV/Evento/IoT. Usado para imprimir com a IoT ao vender um "
+"ingresso de evento.\n"
+
+#. module: pos_event_iot
+#: model:ir.model.fields,field_description:pos_event_iot.field_event_event__display_name
+msgid "Display Name"
+msgstr "Exibir nome"
+
+#. module: pos_event_iot
+#: model:ir.model,name:pos_event_iot.model_event_event
+msgid "Event"
+msgstr "Evento"
+
+#. module: pos_event_iot
+#: model:ir.model.fields,field_description:pos_event_iot.field_event_event__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_event_iot
+#: model:ir.module.module,shortdesc:base.module_pos_event_iot
+#, fuzzy
+msgid "IoT for PoS/Event"
+msgstr "IoT para PDV/Evento"
+
+#. module: pos_event_iot
+#: model:ir.module.module,summary:base.module_pos_event_iot
+msgid "Use IoT device integrations for events"
+msgstr "Usar integrações de dispositivos IoT para eventos"

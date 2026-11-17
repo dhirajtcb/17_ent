@@ -1,0 +1,729 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_shipstation
+#
+# Bren Driesen <brdri@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.5a1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 17:46+0000\n"
+"PO-Revision-Date: 2026-10-27 11:33+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-20/"
+"delivery_shipstation/nl/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: nl\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_label_layout__4x6
+msgid "4x6"
+msgstr "4x6"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"<i class=\"oi\" data-icon=\"warning\"/> In <b>Test Environment</b>, your shippings are automatically <b>archived</b> after the label creation. <br/>\n"
+"                        Please note that charges can still occur for label creations and some shipping carriers may automatically validate the shipment when printing labels."
+msgstr ""
+"<i class=\"oi\" data-icon=\"warning\"/>In <b>Testomgeving</b> worden je "
+"verzendingen automatisch <b>gearchiveerd</b> na het aanmaken van het "
+"label.<br/> Let op dat er nog steeds kosten kunnen worden berekend voor het "
+"aanmaken van labels en sommige verzendmaatschappijen de zending automatisch "
+"kunnen valideren bij het afdrukken van labels."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_confirmation_type__adult_signature
+msgid "Adult Signature"
+msgstr "Handtekening volwassene"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_confirmation_type__age_verification_16_plus
+msgid "Age Verification 16+"
+msgstr "Leeftijdsverificatie 16+"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid ""
+"Automatically cancelling ShipStation shipment as the carrier is not in "
+"Production Mode."
+msgstr ""
+"De ShipStation-verzending wordt automatisch geannuleerd omdat de vervoerder "
+"niet in productiemodus staat."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_label_layout
+msgid "Available layouts (sizes) in which shipping labels can be downloaded."
+msgstr ""
+"Beschikbare lay-outs (formaten) waarin verzendlabels kunnen worden "
+"gedownload."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "Vervoerder"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_insurance_provider__carrier
+msgid "Carrier-Provided Insurance"
+msgstr "Verzekering aangeboden door vervoerder"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Carriers"
+msgstr "Vervoerders"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Copy the Production Key"
+msgstr "Kopieer de productiesleutel"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Cost: %(price).2f %(currency)s"
+msgstr "Kost: %(price).2f %(currency)s"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Create a ShipStation Account"
+msgstr "Maak een ShipStation-account aan"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Create one delivery method for each carrier and service you want to enable "
+"for ShipStation."
+msgstr ""
+"Maak één leveringsmethode aan voor elke vervoerder en service die je wilt "
+"inschakelen voor ShipStation."
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "DOM"
+msgstr "DOM"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_default_package_type_id
+msgid "Default package type for ShipStation"
+msgstr "Standaard pakkettype voor ShipStation"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Define a default package."
+msgstr "Stel een standaardpakket in."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_confirmation_type__delivery
+msgid "Delivery"
+msgstr "Levering"
+
+#. module: delivery_shipstation
+#: model:ir.model,name:delivery_shipstation.model_delivery_carrier
+msgid "Delivery Method"
+msgstr "Leveringsmethode"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Discard"
+msgstr "Annuleren"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_package_type__display_name
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Enable Carriers in ShipStation"
+msgstr "Vervoerders inschakelen in ShipStation"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Enabling Carriers in ShipStation"
+msgstr "Vervoerders inschakelen in ShipStation"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_insurance_provider__third_party
+msgid "External Insurance"
+msgstr "Externe verzekering"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid "Failed to create the return label!"
+msgstr "Het retourlabel maken is mislukt!"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid "Failed to fetch ShipStation Carriers, Please try again later."
+msgstr ""
+"ShipStation-vervoerders konden niet opgehaald worden. Probeer het later "
+"opnieuw."
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "Failed to save."
+msgstr "Opslaan mislukt."
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Generate a V2 API Key"
+msgstr "Genereer een V2 API-sleutel"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Go to"
+msgstr "Ga naar"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_package_type__id
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_picking__id
+msgid "ID"
+msgstr "ID"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "INTL"
+msgstr "INTL"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"In your ShipStation account, go to <b>Settings &gt; Account &gt; Shipping "
+"&gt; Carriers</b> and use the On/Off toggle on the carrier list to enable "
+"the ones you need.<br/>"
+msgstr ""
+"Ga in je ShipStation-account naar <b>Settings &gt; Account &gt; Shipping "
+"&gt; Carriers</b> en gebruik de Aan/Uit-schakelaar in de vervoerderslijst om "
+"de vervoerders in te schakelen die je nodig hebt.<br/>"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_insurance_provider
+msgid "Indicates a preferred insurance provider for your shipment."
+msgstr "Geeft een voorkeursverzekeringsprovider aan voor je zending."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_confirmation_type
+msgid ""
+"Indicates the type of delivery confirmation you want for your shipment. The "
+"available options depend on the carrier and service you choose."
+msgstr ""
+"Geeft het type leveringsbevestiging aan dat je voor je zending wilt. De "
+"beschikbare opties zijn afhankelijk van de vervoerder en service die je "
+"kiest."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Length, Width, and Height is necessary for a ShipStation Package."
+msgstr "Lengte, breedte en hoogte zijn vereist voor een ShipStation-pakket."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_label_layout__letter
+msgid "Letter"
+msgstr "Letter"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Multi-Package"
+msgstr "Multi-pakket"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid ""
+"No carrier is set on \"%(delivery_method)s\". To use ShipStation, you'll "
+"need to sync your carriers with your account."
+msgstr ""
+"Er is geen vervoerder ingesteld op \"%(delivery_method)s\". Om ShipStation "
+"te gebruiken, moet je je vervoerders synchroniseren met je account."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "No label reference found on the picking. Unable to cancel shipment."
+msgstr ""
+"Geen labelreferentie gevonden op de picking. Kan de verzending niet "
+"annuleren."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"No label reference found on the picking. Unable to create return shipment."
+msgstr ""
+"Geen labelreferentie gevonden op de picking. Kan geen retourzending aanmaken."
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Once generated, copy the <b>Production Key</b>, as it is required on the "
+"delivery method configuration in Odoo.<br/>"
+msgstr ""
+"Zodra hij is gegenereerd, kopieer je de <b>Productiesleutel</b>, aangezien "
+"die vereist is voor de configuratie van de leveringsmethode in Odoo.<br/>"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Once your account is created, go to <b>Settings &gt; Account &gt; API "
+"Settings</b>, select the <b>V2 API</b> and click <b>Generate API "
+"Key</b>.<br/>"
+msgstr ""
+"Zodra je account is aangemaakt, ga je naar <b>Instellingen &gt; Account &gt; "
+"API-instellingen</b>, selecteer de <b>V2 API</b> en klik op <b>API-sleutel "
+"genereren</b>.<br/>"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid "Only system administrators can sync ShipStation carriers."
+msgstr "Enkel systeembeheerders kunnen ShipStation-vervoerders synchroniseren."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_label_file_type__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_label_file_type__png
+msgid "PNG"
+msgstr "PNG"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_insurance_provider__parcelguard
+msgid "ParcelGuard"
+msgstr "ParcelGuard"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Partner information is required to get rate."
+msgstr "Partnerinformatie is vereist om het tarief op te halen."
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Paste the Production Key copied from your ShipStation account, making sure "
+"you are using the V2 API."
+msgstr ""
+"Plak de productiesleutel die je uit je ShipStation-account hebt gekopieerd "
+"en zorg ervoor dat je de V2-API gebruikt."
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "Please select a service"
+msgstr "Selecteer een service"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_label_file_type
+msgid ""
+"Possible file formats in which shipping labels can be downloaded. We "
+"recommend PDF format because it is supported by all carriers."
+msgstr ""
+"Mogelijke bestandsformaten waarin verzendlabels kunnen worden gedownload. We "
+"raden het pdf-formaat aan omdat dit door alle vervoerders wordt ondersteund."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "Provider"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_additional_handling
+msgid "Requires Additional Handling"
+msgstr "Vereist extra afhandeling"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid ""
+"Return label generation is only supported for domestic shipments. Skipping."
+msgstr ""
+"Het genereren van een retourlabel wordt alleen ondersteund voor binnenlandse "
+"zendingen. Overslaan."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Return shipment(s) created into ShipStation:"
+msgstr "Retourzending(en) aangemaakt in ShipStation:"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Returns"
+msgstr "Retourzendingen"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Sale Order is required to get rate."
+msgstr "Verkooporder is vereist om tarief te krijgen."
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Save"
+msgstr "Opslaan"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "Select Carrier"
+msgstr "Vervoerder selecteren"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "Select Service"
+msgstr "Service selecteren"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Select a Carrier and Service"
+msgstr "Selecteer een vervoerder en service"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.xml:0
+msgid "Select a carrier to view services"
+msgstr "Selecteer een vervoerder om services te bekijken"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Select the carrier and service using the sync button <i class=\"oi\" data-"
+"icon=\"refresh\"/>.<br/>"
+msgstr ""
+"Selecteer de vervoerder en service met de synchronisatieknop <i class=\"oi\" "
+"data-icon=\"refresh\"/>.<br/>"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Set up in Odoo"
+msgstr "Instellen in Odoo"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid ""
+"Set up your additional ShipStation preferences: label format and layout, "
+"confirmation type, and insurance provider. When selecting an insurance "
+"provider, make sure an <b>Insurance Percentage</b> is set."
+msgstr ""
+"Stel je extra ShipStation-voorkeuren in: labelformaat en lay-out, "
+"bevestigingstype en verzekeringsprovider. Zorg er bij het selecteren van een "
+"verzekeringsprovider voor dat er een <b>Verzekeringspercentage</b> is "
+"ingesteld."
+
+#. module: delivery_shipstation
+#: model:delivery.carrier,name:delivery_shipstation.delivery_carrier_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__delivery_type__shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__stock_package_type__package_carrier_type__shipstation
+#: model:product.template,name:delivery_shipstation.product_product_delivery_shipstation_product_template
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "ShipStation"
+msgstr "ShipStation"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "ShipStation API Key"
+msgstr "ShipStation API-sleutel"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_carrier_code
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_package_type__shipstation_carrier_code
+msgid "ShipStation Carrier Code"
+msgstr "Code ShipStation-vervoerder"
+
+#. module: delivery_shipstation
+#. odoo-javascript
+#: code:addons/delivery_shipstation/static/src/components/shipstation_selection_dialog.js:0
+msgid "ShipStation Carrier Selector"
+msgstr "Keuzetool ShipStation-vervoerder"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "ShipStation Configuration"
+msgstr "ShipStation-configuratie"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_confirmation_type
+msgid "ShipStation Confirmation"
+msgstr "Bevestiging ShipStation"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_default_package_type_id
+msgid "ShipStation Default Package"
+msgstr "Standaardpakket ShipStation"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "ShipStation Error: %(message)s"
+msgstr "ShipStation-fout: %(message)s"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"ShipStation Error: The following products don't have weights set: "
+"%(product_names)s"
+msgstr ""
+"ShipStation-fout: voor de volgende producten is geen gewicht ingesteld: %"
+"(product_names)s"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_insurance_provider
+msgid "ShipStation Insurance Provider"
+msgstr "ShipStation verzekeringsprovider"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_label_file_type
+msgid "ShipStation Label Format"
+msgstr "ShipStation labelformaat"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_label_layout
+msgid "ShipStation Label Layout"
+msgstr "ShipStation labellay-out"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_stock_picking__shipstation_label_ref
+msgid "ShipStation Label Reference"
+msgstr "ShipStation labelreferentie"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_service_code
+msgid "ShipStation Service Code"
+msgstr "ShipStation servicecode"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_service_name
+msgid "ShipStation Service Name"
+msgstr "ShipStation servicenaam"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "ShipStation Set Up"
+msgstr "ShipStation instellen"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_production_api_key
+msgid "ShipStation V2 API Production Token"
+msgstr "ShipStation V2 API productietoken"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "ShipStation Warning: %(message)s"
+msgstr "ShipStation-waarschuwing: %(message)s"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid "ShipStation order(s) not found to cancel shipment!"
+msgstr "ShipStation-order(s) om verzending te annuleren niet gevonden!"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"ShipStation refused the API key. Make sure it is an active V2 production "
+"key: V1 keys are not supported."
+msgstr ""
+"ShipStation heeft de API-sleutel geweigerd. Zorg ervoor dat het een actieve "
+"V2-productiesleutel is: V1-sleutels worden niet ondersteund."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "ShipStation returned an unexpected error (HTTP %(status_code)s)."
+msgstr "ShipStation gaf een onverwachte fout (HTTP %(status_code)s)."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "ShipStation returned an unreadable response."
+msgstr "ShipStation gaf een onleesbaar antwoord terug."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "ShipStation returned no rates for this shipment."
+msgstr "ShipStation heeft geen tarieven gegeven voor deze zending."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Shipment created into ShipStation:"
+msgstr "Verzending aangemaakt in ShipStation:"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_confirmation_type__signature
+msgid "Signature"
+msgstr "Handtekening"
+
+#. module: delivery_shipstation
+#: model:ir.model,name:delivery_shipstation.model_stock_package_type
+msgid "Stock package type"
+msgstr "Pakkettype"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_supports_multipackage
+msgid "Support Multi-Package"
+msgstr "Multi-pakket ondersteunen"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,field_description:delivery_shipstation.field_delivery_carrier__shipstation_supports_returns
+msgid "Support Returns"
+msgstr "Retourzendingen ondersteunen"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "Sync Carriers/Services from ShipStation"
+msgstr "Vervoerders/services synchroniseren vanuit ShipStation"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid ""
+"The 'Letter' layout is only compatible with the PDF format. Please choose a "
+"different combination."
+msgstr ""
+"De lay-out 'Letter' is enkel compatibel met het PDF-formaat. Kies een andere "
+"combinatie."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"The carrier does not support multi-package shipments. The packages were "
+"split into %(count)s separate shipments."
+msgstr ""
+"De vervoerder ondersteunt geen zendingen met meerdere pakketten. De "
+"pakketten zijn gesplitst in %(count)s afzonderlijke zendingen."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_carrier_code
+msgid ""
+"The carrier on ShipStation used by this carrier. The service code belongs to"
+" it."
+msgstr ""
+"De vervoerder in ShipStation die door deze vervoerder wordt gebruikt. De "
+"servicecode hoort hierbij."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_service_code
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_service_name
+msgid ""
+"The service that will be used for this carrier. This is set when you select "
+"a carrier from the wizard."
+msgstr ""
+"De service die zal worden gebruikt voor deze vervoerder. Dit wordt ingesteld "
+"wanneer je een vervoerder selecteert in de wizard."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"There was an error in your ShipStation request. (Reference ID: "
+"%(request_id)s)"
+msgstr ""
+"Er is een fout opgetreden in je ShipStation-aanvraag. (Referentie-ID: %"
+"(request_id)s)"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid "This action requires a ShipStation carrier."
+msgstr "Voor deze actie is een ShipStation-vervoerder nodig."
+
+#. module: delivery_shipstation
+#: model:ir.model.fields,help:delivery_shipstation.field_delivery_carrier__shipstation_production_api_key
+msgid ""
+"To integrate, generate a Production V2 API Key within your ShipStation "
+"dashboard. Note: V1 keys are not supported for this implementation."
+msgstr ""
+"Genereer een Production V2 API-sleutel in je ShipStation-dashboard om te "
+"integreren. Let op: V1-sleutels worden niet ondersteund voor deze "
+"implementatie."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"Top up your ShipStation account in your ShipStation portal to continue "
+"creating labels."
+msgstr ""
+"Waardeer je ShipStation-account op in je ShipStation-portaal om door te gaan "
+"met het maken van labels."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid "Tracking Numbers:"
+msgstr "Trackingnummers:"
+
+#. module: delivery_shipstation
+#: model:ir.model,name:delivery_shipstation.model_stock_picking
+msgid "Transfer"
+msgstr "Transfer"
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/shipstation_request.py:0
+msgid ""
+"Unable to cancel for an unknown reason. Please try again or investigate in "
+"your ShipStation portal."
+msgstr ""
+"Kan om een onbekende reden niet annuleren. Probeer het opnieuw of onderzoek "
+"het in je ShipStation-portaal."
+
+#. module: delivery_shipstation
+#. odoo-python
+#: code:addons/delivery_shipstation/models/delivery_carrier.py:0
+msgid ""
+"Unable to cancel the following tracking number(s) %(tracking_numbers)s due "
+"to warnings below:"
+msgstr ""
+"Wegens onderstaande waarschuwingen kunnen deze trackingnummers niet "
+"geannuleerd worden %(tracking_numbers)s:"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_confirmation_type__verbal_confirmation
+msgid "Verbal Confirmation"
+msgstr "Mondelinge bevestiging"
+
+#. module: delivery_shipstation
+#: model:ir.model.fields.selection,name:delivery_shipstation.selection__delivery_carrier__shipstation_label_file_type__zpl
+msgid "ZPL"
+msgstr "ZPL"
+
+#. module: delivery_shipstation
+#: model_terms:ir.ui.view,arch_db:delivery_shipstation.view_delivery_carrier_form
+msgid "to create an account.<br/>"
+msgstr "om een account aan te maken.<br/>"

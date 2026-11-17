@@ -1,0 +1,972 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_attendance_zkteco
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.4a1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:54+0000\n"
+"PO-Revision-Date: 2026-10-28 09:34+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-20/"
+"hr_attendance_zkteco/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "%(orphan_count)d non matched check-out transactions found."
+msgstr "ພົບລາຍການບັນທຶກອອກ %(orphan_count)d ລາຍການ ທີ່ບໍ່ກົງກັນ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_needaction
+msgid "Action Needed"
+msgstr "ຈຳເປັນຕ້ອງມີການດຳເນີນການ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_ids
+msgid "Activities"
+msgstr "ກິດຈະກຳ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "ຮູບແບບຂໍ້ຍົກເວັ້ນຂອງກິດຈະກຳ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_plans_ids
+msgid "Activity Plans"
+msgstr "ແຜນກິດຈະກຳ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_state
+msgid "Activity State"
+msgstr "ສະຖານະກິດຈະກຳ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_hr_attendance
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__attendance_id
+msgid "Attendance"
+msgstr "ການລົງເວລາເຮັດວຽກ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__attendance_unlinked
+msgid "Attendance Unlinked"
+msgstr "ການລົງເວລາທີ່ຍົກເລີກການເຊື່ອມໂຍງ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.module.module,shortdesc:base.module_hr_attendance_zkteco
+msgid "Attendances ZKTeco BioTime"
+msgstr "ການລົງເວລາເຮັດວຽກ ZKTeco BioTime"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_work_location_view_form_inherit
+msgid "BioTime"
+msgstr "BioTime"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields.selection,name:hr_attendance_zkteco.selection__hr_attendance__in_mode__biotime
+#: model:ir.model.fields.selection,name:hr_attendance_zkteco.selection__hr_attendance__out_mode__biotime
+msgid "Biotime"
+msgstr "Biotime"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_work_location__zkteco_biotime_id
+msgid "Biotime ID"
+msgstr "ລະຫັດ Biotime"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_attendance_view_form
+msgid "Check In"
+msgstr "ບັນທຶກເຂົ້າ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_attendance_view_form
+msgid "Check Out"
+msgstr "ບັນທຶກອອກ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields.selection,name:hr_attendance_zkteco.selection__zkteco_transactions__punch_type__check_in
+msgid "Check-In"
+msgstr "ບັນທຶກເຂົ້າ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields.selection,name:hr_attendance_zkteco.selection__zkteco_transactions__punch_type__check_out
+msgid "Check-Out"
+msgstr "ບັນທຶກອອກ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Check-in"
+msgstr "ບັນທຶກເຂົ້າ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Check-out"
+msgstr "ບັນທຶກອອກ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Check-out Lookback"
+msgstr "ໄລຍະເວລາກວດສອບການບັນທຶກອອກຍ້ອນຫຼັງ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_res_company
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__company_id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__company_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Company Name"
+msgstr "ຊື່ບໍລິສັດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_config_settings.py:0
+msgid "Connected successfully to the ZKTeco BioTime server."
+msgstr "ເຊື່ອມຕໍ່ກັບເຊີເວີ ZKTeco BioTime ສຳເລັດແລ້ວ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Connection"
+msgstr "ການເຊື່ອມຕໍ່"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_config_settings.py:0
+msgid ""
+"Could not connect to the BioTime server. Please verify your configuration "
+"fields are set up correctly."
+msgstr ""
+"ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີເວີ BioTime ໄດ້. ກະລຸນາກວດສອບການຕັ້ງຄ່າຂໍ້ມູນຂອງທ່ານໃຫ້ຖືກຕ້ອງ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Could not connect to the ZKTeco BioTime server: %s"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີເວີ ZKTeco BioTime ໄດ້: %s"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__create_uid
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__create_date
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_work_location__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_ir_ui_menu__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__display_name
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Email"
+msgstr "ອີເມວ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Email used to authenticate with the BioTime server"
+msgstr "ອີເມວທີ່ໃຊ້ໃນການຢືນຢັນຕົວຕົນກັບເຊີເວີ BioTime"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_hr_employee
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Employee"
+msgstr "ພະນັກງານ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Employee %(employee_name)s has a check-out at %(check_out)s without a check-"
+"in."
+msgstr ""
+"ພະນັກງານ %(employee_name)s ມີການບັນທຶກອອກເມື່ອ %(check_out)s ໂດຍບໍ່ມີການບັນທຶກເຂົ້າ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Employee is not linked, make sure to set the Zkteco ID on the related "
+"employees."
+msgstr ""
+"ພະນັກງານຍັງບໍ່ທັນໄດ້ເຊື່ອມໂຍງ, ກະລຸນາກວດສອບການລະບຸລະຫັດ Zkteco ID ໃນພະນັກງານທີ່ກ່ຽວຂ້ອງ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+msgid "Failed to fetch terminals from BioTime server: %s"
+msgstr "ບໍ່ສາມາດດຶງຂໍ້ມູນເຄື່ອງສະແກນຈາກເຊີເວີ BioTime ໄດ້: %s"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Failed to fetch transactions from BioTime server: %s"
+msgstr "ບໍ່ສາມາດດຶງຂໍ້ມູນລາຍການຈາກເຊີເວີ BioTime ໄດ້: %s"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+msgid "Fetch"
+msgstr "ດຶງຂໍ້ມູນ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Fetch Complete"
+msgstr "ດຶງຂໍ້ມູນສຳເລັດ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_terminal_view_list
+msgid "Fetch Terminals"
+msgstr "ດຶງຂໍ້ມູນເຄື່ອງສະແກນ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Full URL of the ZKTeco bioTime server"
+msgstr "ທີ່ຢູ່ URL ເຕັມຂອງເຊີເວີ ZKTeco BioTime"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Go to Settings"
+msgstr "ໄປທີ່ການຕັ້ງຄ່າ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Has Issues"
+msgstr "ມີບັນຫາ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_work_location__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_ir_ui_menu__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_exception_icon
+msgid "Icon"
+msgstr "ໄອຄອນ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "ໄອຄອນສະແດງກິດຈະກຳທີ່ມີຂໍ້ຍົກເວັ້ນ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍຕິກ, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__message_has_error
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍຕິກ, ມີບາງຂໍ້ຄວາມເກີດຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.module.module,summary:base.module_hr_attendance_zkteco
+msgid "Integrate Zkteco BioPro with attendances app via BioTime 8.5 & 9.0 API"
+msgstr ""
+"ເຊື່ອມໂຍງ Zkteco BioPro ເຂົ້າກັບແອັບການລົງເວລາ ຜ່ານ BioTime 8.5 & 9.0 API"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__is_processed
+msgid "Is Processed"
+msgstr "ປະມວນຜົນແລ້ວ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__write_uid
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດລ່າສຸດໂດຍ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__write_date
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__location_id
+msgid "Location"
+msgstr "ສະຖານທີ່"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__manual_punch_type
+msgid "Manual Punch Type"
+msgstr "ປະເພດການລົງເວລາດ້ວຍຕົນເອງ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__activity_type_icon
+msgid "Material Symbols icon e.g. checklist"
+msgstr "ໄອຄອນ Material Symbols ເຊັ່ນ: ລາຍການກວດສອບ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_ir_ui_menu
+msgid "Menu"
+msgstr "ເມນູ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Missing Check-In Record"
+msgstr "ຂາດຂໍ້ມູນການບັນທຶກເຂົ້າ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__in_mode
+msgid "Mode"
+msgstr "ໂໝດ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "My Activities"
+msgstr "ກິດຈະກຳຂອງຂ້ອຍ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "ກຳນົດເວລາກິດຈະກຳຂອງຂ້ອຍ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__name
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຕໍ່ໄປ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "ກຳນົດເວລາກິດຈະກຳຕໍ່ໄປ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_summary
+msgid "Next Activity Summary"
+msgstr "ເນື້ອໃນຫຍໍ້ກິດຈະກຳຕໍ່ໄປ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_type_id
+msgid "Next Activity Type"
+msgstr "ປະເພດກິດຈະກຳຕໍ່ໄປ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "No matching Check-in transaction was found."
+msgstr "ບໍ່ພົບລາຍການບັນທຶກເຂົ້າທີ່ກົງກັນ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.actions.act_window,help:hr_attendance_zkteco.zkteco_transactions_action
+msgid "No transactions found"
+msgstr "ບໍ່ພົບລາຍການໃດໆ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid ""
+"Number of days of punch data to fetch from the BioTime server on each sync."
+msgstr ""
+"ຈຳນວນມື້ຂອງຂໍ້ມູນການລົງເວລາ ທີ່ຈະດຶງມາຈາກເຊີເວີ BioTime ໃນແຕ່ລະຄັ້ງທີ່ມີການຊິ້ງ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid ""
+"Number of days to look back when matching a check-out to an existing open "
+"attendance."
+msgstr ""
+"ຈຳນວນມື້ທີ່ຈະກວດສອບຍ້ອນຫຼັງ ເມື່ອຈັບຄູ່ການບັນທຶກອອກ ກັບການລົງເວລາທີ່ຍັງເປີດຄ້າງຢູ່."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_config_settings.py:0
+msgid "Only administrators can test the ZKTeco BioTime connection."
+msgstr ""
+"ສະເພາະຜູ້ດູແລລະບົບເທົ່ານັ້ນ ທີ່ສາມາດທົດສອບການເຊື່ອມຕໍ່ ZKTeco BioTime ໄດ້."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+msgid ""
+"Only attendance managers can fetch terminals from the ZKTeco BioTime server."
+msgstr ""
+"ສະເພາະຜູ້ຈັດການລະບົບການລົງເວລາເທົ່ານັ້ນ ທີ່ສາມາດດຶງຂໍ້ມູນເຄື່ອງສະແກນຈາກເຊີເວີ ZKTeco BioTime ໄດ້."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Only attendance managers can fetch transactions from the ZKTeco BioTime "
+"server."
+msgstr ""
+"ສະເພາະຜູ້ຈັດການລະບົບການລົງເວລາເທົ່ານັ້ນ ທີ່ສາມາດດຶງຂໍ້ມູນລາຍການຈາກເຊີເວີ ZKTeco BioTime ໄດ້."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Only attendance managers can re-fetch transactions from the ZKTeco BioTime "
+"server."
+msgstr ""
+"ສະເພາະຜູ້ຈັດການລະບົບການລົງເວລາເທົ່ານັ້ນ ທີ່ສາມາດດຶງຂໍ້ມູນລາຍການຄືນໃໝ່ຈາກເຊີເວີ ZKTeco BioTime ໄ"
+"ດ້."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__out_mode
+msgid "Out Mode"
+msgstr "ໂໝດອອກ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Password"
+msgstr "ລະຫັດຜ່ານ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Password used to authenticate with the BioTime server"
+msgstr "ລະຫັດຜ່ານທີ່ໃຊ້ໃນການຢືນຢັນຕົວຕົນກັບເຊີເວີ BioTime"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+msgid "Process"
+msgstr "ປະມວນຜົນ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Processed"
+msgstr "ປະມວນຜົນແລ້ວ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Processed %(processed_count)d transactions."
+msgstr "ປະມວນຜົນແລ້ວ %(processed_count)d ລາຍການ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Processing Complete"
+msgstr "ການປະມວນຜົນສຳເລັດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__processing_note
+msgid "Processing Note"
+msgstr "ໝາຍເຫດການປະມວນຜົນ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+msgid "Punch Details"
+msgstr "ລາຍລະອຽດການລົງເວລາ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__punch_datetime
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+msgid "Punch Time"
+msgstr "ເວລາລົງບັນທຶກ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+msgid "Re-Fetch"
+msgstr "ດຶງຂໍ້ມູນຄືນໃໝ່"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Re-fetched"
+msgstr "ດຶງຂໍ້ມູນຄືນໃໝ່ແລ້ວ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Re-fetched %(refetched)d transaction(s). %(failed)d could not be re-fetched "
+"from the BioTime server."
+msgstr ""
+"ດຶງຂໍ້ມູນຄືນໃໝ່ສຳເລັດ %(refetched)d ລາຍການ. ບໍ່ສາມາດດຶງຂໍ້ມູນຄືນໃໝ່ຈາກເຊີເວີ BioTime ໄດ້ %"
+"(failed)d ລາຍການ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"Re-fetched %(refetched)d transaction(s). %(failed)d could not be re-fetched; "
+"the BioTime server could not be reached for: %(companies)s."
+msgstr ""
+"ດຶງຂໍ້ມູນຄືນໃໝ່ສຳເລັດ %(refetched)d ລາຍການ. ບໍ່ສາມາດດຶງຂໍ້ມູນຄືນໃໝ່ໄດ້ %(failed)d ລາຍການ; ບໍ່ສາ"
+"ມາດເຊື່ອມຕໍ່ກັບເຊີເວີ BioTime ສຳລັບ: %(companies)s."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Re-fetched %d transaction(s) from the BioTime server."
+msgstr "ດຶງຂໍ້ມູນຄືນໃໝ່ສຳເລັດ %d ລາຍການ ຈາກເຊີເວີ BioTime."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__activity_user_id
+msgid "Responsible User"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Server URL"
+msgstr "URL ຂອງເຊີເວີ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"ສະຖານະຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ກາຍວັນທີກຳນົດແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_config_settings.py:0
+msgid "Success"
+msgstr "ສຳເລັດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__terminal_id
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__terminal_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_terminal_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Terminal"
+msgstr "ເຄື່ອງສະແກນ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_terminal__terminal_sn
+msgid "Terminal ID"
+msgstr "ລະຫັດເຄື່ອງສະແກນ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.constraint,message:hr_attendance_zkteco.constraint_zkteco_terminal_unique_terminal_sn_company
+msgid "Terminal ID must be unique per company."
+msgstr "ລະຫັດເຄື່ອງສະແກນຕ້ອງບໍ່ຊ້ຳກັນພາຍໃນແຕ່ລະບໍລິສັດ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_terminal_view_list
+msgid "Terminals"
+msgstr "ເຄື່ອງສະແກນ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+msgid "Terminals have been fetched from the BioTime server."
+msgstr "ດຶງຂໍ້ມູນເຄື່ອງສະແກນຈາກເຊີເວີ BioTime ແລ້ວ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Test Connection"
+msgstr "ທົດສອບການເຊື່ອມຕໍ່"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_hr_attendance__terminal_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_attendance_view_form
+msgid "The Biotime terminal in which the record is created from"
+msgstr "ເຄື່ອງສະແກນ Biotime ທີ່ລາຍການນີ້ຖືກບັນທຶກຂຶ້ນມາ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_hr_work_location__zkteco_biotime_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_work_location_view_form_inherit
+msgid "The ID of the Location that is defined in the Biotime server"
+msgstr "ລະຫັດສະຖານທີ່ ທີ່ຖືກກຳນົດໄວ້ໃນເຊີເວີ Biotime"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_terminal__terminal_sn
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_terminal_view_form
+msgid "The ID of the terminal that is defined in the Biotime server"
+msgstr "ລະຫັດເຄື່ອງສະແກນ ທີ່ຖືກກຳນົດໄວ້ໃນເຊີເວີ Biotime"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "This transaction uses an unsupported type. Please select a valid one."
+msgstr "ລາຍການນີ້ໃຊ້ປະເພດທີ່ບໍ່ຮອງຮັບ. ກະລຸນາເລືອກປະເພດທີ່ຖືກຕ້ອງ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"This transaction was previously linked to an attendance record that no "
+"longer exists."
+msgstr "ລາຍການນີ້ເຄີຍເຊື່ອມໂຍງກັບຂໍ້ມູນການລົງເວລາທີ່ບໍ່ມີຢູ່ແລ້ວ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Transaction Fetch Window"
+msgstr "ໄລຍະເວລາດຶງຂໍ້ມູນລາຍການ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+msgid "Transaction ID"
+msgstr "ລະຫັດລາຍການ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.actions.act_window,help:hr_attendance_zkteco.zkteco_transactions_action
+msgid ""
+"Transactions are automatically fetched from the BioTime server via a "
+"scheduled action."
+msgstr ""
+"ລາຍການຕ່າງໆຈະຖືກດຶງມາຈາກເຊີເວີ BioTime ໂດຍອັດຕະໂນມັດ ຜ່ານການເຮັດວຽກຕາມກຳນົດເວລາ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "Transactions have been fetched from the BioTime server."
+msgstr "ດຶງຂໍ້ມູນລາຍການຈາກເຊີເວີ BioTime ແລ້ວ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__punch_type
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,help:hr_attendance_zkteco.field_zkteco_transactions__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "ປະເພດຂອງກິດຈະກຳຂໍ້ຍົກເວັ້ນໃນລາຍການບັນທຶກ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__unmatched_checkout
+msgid "Unmatched Checkout"
+msgstr "ການບັນທຶກອອກທີ່ບໍ່ກົງກັນ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "Unprocessed"
+msgstr "ຍັງບໍ່ໄດ້ປະມວນຜົນ"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "Verify the connection to the ZKTeco BioTime server."
+msgstr "ກວດສອບການເຊື່ອມຕໍ່ກັບເຊີເວີ ZKTeco BioTime."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_hr_work_location
+msgid "Work Location"
+msgstr "ສະຖານທີ່ເຮັດວຽກ"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"You cannot delete a processed transaction that is linked to an attendance "
+"record. Delete the attendance record first."
+msgstr ""
+"ທ່ານບໍ່ສາມາດລຶບລາຍການທີ່ປະມວນຜົນແລ້ວ ແລະ ເຊື່ອມໂຍງກັບຂໍ້ມູນການລົງເວລາໄດ້. ກະລຸນາລຶບຂໍ້ມູນການລົງເວລາ"
+"ກ່ອນ."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"You cannot re-fetch a transaction that is linked to an attendance record. "
+"Delete the attendance record first."
+msgstr ""
+"ທ່ານບໍ່ສາມາດດຶງຂໍ້ມູນລາຍການຄືນໃໝ່ທີ່ເຊື່ອມໂຍງກັບຂໍ້ມູນການລົງເວລາໄດ້. ກະລຸນາລຶບຂໍ້ມູນການລົງເວລາກ່ອນ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.hr_attendance_view_form
+msgid "ZKTeco"
+msgstr "ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "ZKTeco BioTime"
+msgstr "ZKTeco BioTime"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+msgid "ZKTeco BioTime authentication failed: no token in server response."
+msgstr ""
+"ການຢືນຢັນຕົວຕົນ ZKTeco BioTime ບໍ່ສຳເລັດ: ບໍ່ມີໂທເຄັນ (token) ໃນການຕອບກັບຈາກເຊີເວີ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "ZKTeco BioTime company"
+msgstr "ບໍລິສັດ ZKTeco BioTime"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/res_company.py:0
+msgid ""
+"ZKTeco BioTime company settings are incomplete. Please configure the "
+"following fields:\n"
+msgstr ""
+"ການຕັ້ງຄ່າບໍລິສັດ ZKTeco BioTime ຍັງບໍ່ຄົບຖ້ວນ. ກະລຸນາຕັ້ງຄ່າຊ່ອງຂໍ້ມູນດັ່ງຕໍ່ໄປນີ້:\n"
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid "ZKTeco BioTime is not configured for %s."
+msgstr "ZKTeco BioTime ຍັງບໍ່ທັນໄດ້ຮັບການຕັ້ງຄ່າສຳລັບ %s."
+
+#. module: hr_attendance_zkteco
+#. odoo-python
+#: code:addons/hr_attendance_zkteco/models/zkteco_terminal.py:0
+#: code:addons/hr_attendance_zkteco/models/zkteco_transactions.py:0
+msgid ""
+"ZKTeco BioTime is not set up for %s yet. Configure the BioTime credentials "
+"in Settings to start syncing."
+msgstr ""
+"ZKTeco BioTime ຍັງບໍ່ທັນໄດ້ຮັບການຕັ້ງຄ່າສຳລັບ %s ເທື່ອ. ຕັ້ງຄ່າຂໍ້ມູນເຂົ້າລະບົບ BioTime ໃນການຕັ້ງຄ່າ "
+"ເພື່ອເລີ່ມຕົ້ນການຊິ້ງ."
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__zkteco_checkin_id
+msgid "ZKTeco Check-in ID"
+msgstr "ລະຫັດບັນທຶກເຂົ້າ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__zkteco_checkout_id
+msgid "ZKTeco Check-out ID"
+msgstr "ລະຫັດບັນທຶກອອກ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.view_employee_form
+msgid "ZKTeco Employee ID"
+msgstr "ລະຫັດພະນັກງານ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.constraint,message:hr_attendance_zkteco.constraint_hr_employee_unique_zk_emp_id_company
+msgid "ZKTeco Employee ID must be unique per company."
+msgstr "ລະຫັດພະນັກງານ ZKTeco ຕ້ອງບໍ່ຊ້ຳກັນພາຍໃນແຕ່ລະບໍລິສັດ."
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+msgid "ZKTeco IDs"
+msgstr "ລະຫັດ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model,name:hr_attendance_zkteco.model_zkteco_terminal
+msgid "ZKTeco Terminal"
+msgstr "ເຄື່ອງສະແກນ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_form
+msgid "ZKTeco Transaction"
+msgstr "ລາຍການ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.actions.act_window,name:hr_attendance_zkteco.zkteco_transactions_action
+#: model:ir.model,name:hr_attendance_zkteco.model_zkteco_transactions
+#: model:ir.ui.menu,name:hr_attendance_zkteco.zkteco_transactions_menu
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_list
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.zkteco_transactions_view_search
+msgid "ZKTeco Transactions"
+msgstr "ລາຍການ ZKTeco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.actions.server,name:hr_attendance_zkteco.ir_cron_sync_attendance_ir_actions_server
+msgid "ZkTeco Biotime: Fetch Transactions"
+msgstr "ZkTeco Biotime: ດຶງຂໍ້ມູນລາຍການ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__zkteco_checkin_transaction_id
+msgid "Zkteco Checkin Transaction"
+msgstr "ລາຍການບັນທຶກເຂົ້າ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_checkout_lookback_days
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_checkout_lookback_days
+msgid "Zkteco Checkout Lookback Days"
+msgstr "ຈຳນວນມື້ກວດສອບການບັນທຶກອອກຍ້ອນຫຼັງ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_attendance__zkteco_checkout_transaction_id
+msgid "Zkteco Checkout Transaction"
+msgstr "ລາຍການບັນທຶກອອກ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_company
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_company
+msgid "Zkteco Company"
+msgstr "ບໍລິສັດ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_email
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_email
+msgid "Zkteco Email"
+msgstr "ອີເມວ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_hr_employee__zkteco_emp_id
+msgid "Zkteco Emp"
+msgstr "ພະນັກງານ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_initial_sync_done
+msgid "Zkteco Initial Sync Done"
+msgstr "ການຊິ້ງຂໍ້ມູນເລີ່ມຕົ້ນຂອງ Zkteco ສຳເລັດແລ້ວ"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_password
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_password
+msgid "Zkteco Password"
+msgstr "ລະຫັດຜ່ານ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_server_url
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_server_url
+msgid "Zkteco Server Url"
+msgstr "URL ເຊີເວີ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.actions.act_window,name:hr_attendance_zkteco.zkteco_terminal_action
+#: model:ir.ui.menu,name:hr_attendance_zkteco.zkteco_terminal_menu
+msgid "Zkteco Terminals"
+msgstr "ເຄື່ອງສະແກນ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_zkteco_transactions__zkteco_transaction_id
+msgid "Zkteco Transaction"
+msgstr "ລາຍການ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_company__zkteco_transaction_fetch_days
+#: model:ir.model.fields,field_description:hr_attendance_zkteco.field_res_config_settings__zkteco_transaction_fetch_days
+msgid "Zkteco Transaction Fetch Days"
+msgstr "ຈຳນວນມື້ດຶງຂໍ້ມູນລາຍການ Zkteco"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+#. module: hr_attendance_zkteco
+#: model_terms:ir.ui.view,arch_db:hr_attendance_zkteco.res_config_settings_view_form
+msgid "https://biotime.example.com"
+msgstr "https://biotime.example.com"

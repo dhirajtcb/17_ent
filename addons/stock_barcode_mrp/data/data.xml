@@ -1,0 +1,18 @@
+<odoo>
+    <record id="stock_barcode_mo_client_action" model="ir.actions.client">
+        <field name="name">Barcode MO Client Action</field>
+        <field name="tag">stock_barcode_client_action</field>
+        <field name="res_model">mrp.production</field>
+        <field name="target">fullscreen</field>
+    </record>
+
+    <data noupdate="1">
+        <!-- Set `restrict_scan_dest_location` on False for mrp_operation picking types. -->
+        <function model="stock.picking.type" name="write">
+            <value model="stock.picking.type" search="[('code', '=', 'mrp_operation')]"/>
+            <value eval="{
+                'restrict_scan_dest_location': 'no',
+            }"/>
+        </function>
+    </data>
+</odoo>
